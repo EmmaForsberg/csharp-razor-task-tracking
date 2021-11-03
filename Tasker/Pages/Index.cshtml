@@ -3,4 +3,16 @@
 @{
 }
 
+<table>
+    @foreach (var task in Model.Tasks)
+    {
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Priority</td>
+        </tr>
+    }
+</table>
+
 <h1>All Tasks</h1>
